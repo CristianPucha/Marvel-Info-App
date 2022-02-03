@@ -1,0 +1,63 @@
+
+
+
+.navbar{
+    
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.hamb{
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.hamb ul {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100vh;
+    right: -10px;
+    list-style: none;
+    width: 100px;
+    top: 2000px;
+    padding: 0;
+    transition: all 1s;
+    
+}
+
+.show{
+    top: 50px !important;
+    transition: all 0.5s;
+}
+
+.hamb ul li {
+    padding-top: 7px;
+    text-align: center;
+    
+}
+
+.logo{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+ul {
+    position: absolute;
+    
+}
+
+
+
+@media screen and (min-width: 650px) {
+   body{
+       background-color: red;
+   }
+
+  }

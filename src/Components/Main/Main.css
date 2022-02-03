@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../../Assets/fondo-mobile.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-position-y:5px ;
+    overflow: hidden;
+  }
+
+  
+.buttonMain {
+    background: #ED1D24;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+}
