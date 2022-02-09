@@ -1,15 +1,20 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url('../../Assets/fondo-mobile.jpg') ;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-position-y:5px ;
-    overflow: hidden;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.fullComponentMain {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('../../Assets/fondo-mobile.jpg') ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-position-y:5px ;
+  
+}
 
   
 .buttonMain {
@@ -19,4 +24,40 @@ body {
     padding: 10px 30px;
     color: white;
     font-weight: bold;
+    box-shadow: 2px 2px 3px #000000;
+    border: none;
 }
+
+.mainH1{
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-weight:bold;
+  font-size: 3rem;
+  width: 40vw;
+  text-shadow: 2px 2px 3px #000000;
+  letter-spacing: 2px;
+}
+
+.mainComponentDiv{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  
+}
+
+
+@media screen and (min-width: 650px) {
+  
+  .mainH1{
+    
+    font-size: 4rem;
+    width: 40vw;
+    text-shadow: 2px 2px 3px #000000;
+    letter-spacing: 2px;
+  }
+
+  body {
+    background-position-y:0px ;
+  }
+
+ }

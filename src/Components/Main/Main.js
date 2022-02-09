@@ -4,9 +4,11 @@ import './Main.css'
 function Main () {
     return(
         <>
-        <div>
-        <h1>Main Characters Info</h1>
+        <div className='fullComponentMain'>
+        <div className='mainComponentDiv'>
+        <h1 className="mainH1">Main Characters Info App</h1>
         <button className="buttonMain">Characters</button>
+        </div>
         </div>
         </>
     )
@@ -14,4 +16,3 @@ function Main () {
 
 export default Main;
 
-https://gateway.marvel.com:443/v1/public/characters?apikey=ee1f0ed925539c3a4d4ce7064b25523f

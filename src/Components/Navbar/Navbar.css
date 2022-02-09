@@ -1,5 +1,8 @@
 
-
+header{
+    position: relative;
+    z-index: 42;
+}
 
 .navbar{
     
@@ -10,12 +13,15 @@
     align-items: center;
     background-color: white;
     
+    
 }
 
 .hamb{
     position: relative;
     right: 10px;
     top: 5px;
+    
+    
 }
 
 .hamb ul {
@@ -27,13 +33,15 @@
     width: 100px;
     top: 2000px;
     padding: 0;
-    transition: all 1s;
+    transition: all 0.5s;
+    
     
 }
 
 .show{
     top: 50px !important;
-    transition: all 0.5s;
+    transition: all 0.1s;
+    
 }
 
 .hamb ul li {
