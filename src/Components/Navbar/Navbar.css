@@ -1,6 +1,8 @@
 
 header{
-    position: relative;
+    position:fixed;
+    display:inline-block;
+    top: 0px;
     z-index: 42;
 }
 
