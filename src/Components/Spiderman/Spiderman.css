@@ -36,3 +36,22 @@
   font-family: 'Bangers', cursive;
   letter-spacing: 5px;
 }
+
+.spider-info-div{
+  position: absolute;
+  margin: 0;
+  top: 60%;
+  left:60%;
+  width: 35vw;
+  font-weight: bold;
+  
+}
+
+.spider-info-div h2,p{
+  margin: 5px;
+}
+
+.spider-info-div h2{
+  font-family: 'Bangers', cursive;
+  border-bottom: 2px solid red;
+}
