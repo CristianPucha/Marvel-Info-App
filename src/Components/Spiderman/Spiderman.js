@@ -57,10 +57,14 @@ function Spiderman (){
                     {
                     comics.map((comic , i)=>{
                         return(
-                    <li key={i}>
+                            
+                    <li key={i} >
+                        <a href={comic.urls[0].url} target= '_blank' >
                     <img src={comic.thumbnail.path + "/portrait_incredible" + "." + comic.thumbnail.extension} alt="" />
                     <p>{comic.title}</p>
+                        </a>
                     </li>
+                   
                         )})
                     }
                     
