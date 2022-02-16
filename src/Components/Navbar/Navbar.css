@@ -72,3 +72,62 @@ ul {
    }
 
   }
+
+  
+
+  @media screen and (min-width: 950px) {
+
+
+    .hamb ul {
+        position: absolute;
+        top: 0;
+        display: inline-block;
+        
+        
+    }
+
+    .hambicon{
+        display: none;
+    }
+
+    .hamb{
+            position: relative;
+            right: 10px;
+            top: 5px; 
+      }
+
+      .hamb ul {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: -6px 2px 10px -7px rgba(0,0,0,0.6);
+        height: 85vh;
+        right: -100px;
+        list-style: none;
+        width: 130px;
+        top: 70px;
+        border-radius: 20px 0 0 20px;
+        padding: 0;
+        margin: 0;
+        transition: all 0.5s;
+       
+        
+        
+        
+    }
+
+    .hamb ul:hover{
+        right: -10px;
+    }
+
+    .hamb ul li {
+        padding-left: 20px;
+    }
+
+    .arrowsleft{
+        position: absolute;
+        left: 5px;
+        top: 45%;
+    }
+
+
+  }

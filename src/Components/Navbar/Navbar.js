@@ -9,6 +9,7 @@ import strange from '../../Assets/strange.png'
 import thanos from '../../Assets/thanos.png'
 import thor from '../../Assets/thor.png'
 import Spiderman from '../Spiderman/Spiderman'
+import arrows from '../../Assets/arrows.png'
 import './Navbar.css'
 import {Link, Routes, Route} from 'react-router-dom'
 
@@ -43,6 +44,10 @@ function Navbar () {
                             </Link>
                         </li>
                         <li>
+                            <img src={arrows} className='arrowsleft' alt="" />
+                        </li>
+                        
+                        <li>
                             <a href="">
                                 <img src={capitanamerica} alt="" />
                             </a>
@@ -53,7 +58,10 @@ function Navbar () {
                             </a>
                         </li>
                         <li><a href="">
-                            <img src={hulk} alt="" /></a></li>
+                            <img src={hulk} alt="" /></a>
+                        </li>
+                        
+                        
                         
                         
                         
