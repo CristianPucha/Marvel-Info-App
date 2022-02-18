@@ -4,11 +4,7 @@ import spidermanjpg from '../../Assets/spiderman.png'
 import capitanamerica from '../../Assets/capitanamerica.png'
 import deadpool from '../../Assets/deadpool.png'
 import hulk from '../../Assets/hulk.png'
-import ironman from '../../Assets/ironman.png'
-import strange from '../../Assets/strange.png'
-import thanos from '../../Assets/thanos.png'
-import thor from '../../Assets/thor.png'
-import Spiderman from '../Spiderman/Spiderman'
+
 import arrows from '../../Assets/arrows.png'
 import './Navbar.css'
 import {Link, Routes, Route} from 'react-router-dom'
@@ -48,16 +44,12 @@ function Navbar () {
                         </li>
                         
                         <li>
-                            <a href="">
+                            <a href="captain-america">
                                 <img src={capitanamerica} alt="" />
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src={deadpool} alt="" />
-                            </a>
-                        </li>
-                        <li><a href="">
+                       
+                        <li><a href="hulk">
                             <img src={hulk} alt="" /></a>
                         </li>
                         

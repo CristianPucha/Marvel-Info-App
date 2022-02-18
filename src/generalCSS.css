@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+.spiderman-img-mobile{
+    width: 100vw;
+    height: auto;
+    
+    background-color: white;
+    background-image: -webkit-linear-gradient(-44deg, red 50%,white 50%);
+    min-height: 700px;
+    
+    
+}
+
+
+  
+
+
+.spiderman-img-mobile img {
+    max-width: 90%;
+  height: auto;
+  position: absolute;
+  top: -800px;
+  left:-10%;
+  z-index: 1;
+  
+}
+
+.spiderman-div{
+  margin-top: 80px;
+}
+
+.spiderman-div h1 {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+  position: absolute;
+  left: 45%;
+  padding-top: 40px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 5px;
+}
+
+.spider-info-div{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left:58%;
+  width: 40vw;
+  font-weight: bold;
+  
+}
+
+.spider-info-div h2,p{
+  margin: 5px;
+}
+
+.spider-info-div h2{
+  font-family: 'Bangers', cursive;
+  border-bottom: 2px solid red;
+}
+
+.spiderman-comics h2 {
+  font-family: 'Bangers', cursive;
+  border-bottom: 2px solid red;
+  width: 30vw;
+  position: relative;
+  left: 15vw;
+}
+
+.spider-comics-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.spider-comics-list li {
+  list-style: none;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+ 
+  
+}
+
+
+
+.spider-comics-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.spider-comics-list img {
+  margin: 5px;
+}
+
+
+
+.spider-comics-list li p {
+  font-weight: bold;
+}
+
+
+/* --------------------------- Tablet ---------------------------- */
+
+@media screen and (min-width: 650px) {
+
+  .spiderman-img-mobile{
+    width: 100vw;
+    height: auto;
+    
+    background-color: white;
+    background-image: -webkit-linear-gradient(-55deg, red 50%,white 50%);
+    min-height: 700px;
+    
+    
+}
+  
+  .spiderman-div h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    left: 45%;
+    padding-top: 40px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
+  }
+
+  .spiderman-img-mobile img {
+    max-width: 600px;
+    width: 80% ;
+    height: auto;
+    position: absolute;
+    top: -800px;
+    left:-5vw;
+    z-index: 1;
+  
+}
+
+}
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+   
+ 
+
+  .spider-comics-list img {
+    margin: 5px;
+    filter: grayscale(100%);
+  }
+
+  .spider-comics-list img:hover {
+    margin: 5px;
+    filter: grayscale(0%);
+    transition: all 0.5s;
+  }
+
+  .spiderman-img-mobile{
+    width: 100vw;
+    height: auto;
+    
+    background-color: white;
+    background-image: -webkit-linear-gradient(-60deg, red 50%,white 50%);
+    min-height: 850px;
+}
+
+    .spiderman-img-mobile img {
+      max-width: 650px;
+      width: 80% ;
+      top: -800px;
+      left: 8%;
+      
+      
+
+    }
+
+    .spiderman-div h1 {
+    color: white;
+    font-size: 4rem;
+    top: 100px;
+    }
+
+    .spider-info-div{
+
+    top: 60%;
+    left:60%;
+    width: 30vw;
+
+
+    }
+
+    }
+
+/* --------------------- Large PC ---------------------------*/
+
+    @media screen and (min-width: 1200px) {
+      
+
+      .spider-comics-list img {
+        margin: 5px;
+        filter: grayscale(100%);
+      }
+
+      .spider-comics-list img:hover {
+        margin: 5px;
+        filter: grayscale(0%);
+        transition: all 0.5s;
+      }
+
+      .spiderman-comics h2{
+        font-size:2rem ;
+      }
+
+      .spiderman-img-mobile{
+        width: 100vw;
+        height: auto;
+        
+        background-color: white;
+        background-image: -webkit-linear-gradient(-70deg, red 50%,white 50%);
+        min-height: 850px;
+    }
+
+    .spiderman-img-mobile img {
+      max-width: 700px;
+      width: 80% ;
+      top: -800px;
+      left: 8%;
+      
+      
+
+    }
+
+    .spiderman-div h1 {
+    color: white;
+    font-size: 4rem;
+    top: 100px;
+    }
+
+    .spider-info-div{
+
+    top: 60%;
+    left:50%;
+    width: 40vw;
+
+
+    }
+    .spider-info-div h2{
+      font-size: 3rem;
+    }
+
+    .spider-info-div p{
+      font-size: 1.5rem;
+    }
+
+}

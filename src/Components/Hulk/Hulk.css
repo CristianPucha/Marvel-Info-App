@@ -1,0 +1,122 @@
+.captain-img img {
+    max-width: 80%;
+  height: auto;
+  position: absolute;
+  top: -800px;
+  left:-10%;
+  z-index: 1;
+  
+}
+
+.hulk-background{
+    width: 100vw;
+    height: auto;
+    
+    background-color: white;
+    background-image: -webkit-linear-gradient(-44deg, rgb(17, 138, 17) 50%,white 50%);
+    min-height: 700px;
+    
+    
+}
+
+.hulk-info-div h2{
+    font-family: 'Bangers', cursive;
+    border-bottom: 2px solid rgb(17, 138, 17);
+  }
+
+  .hulk-comics h2 {
+    
+    border-bottom: 2px solid rgb(17, 138, 17);
+    
+  }
+
+
+/* --------------------------- Tablet ---------------------------- */
+
+@media screen and (min-width: 650px) {
+
+    .hulk-background{
+        width: 100vw;
+        height: auto;
+        
+        background-color: white;
+        background-image: -webkit-linear-gradient(-55deg, rgb(17, 138, 17) 50%,white 50%);
+        min-height: 700px;
+        
+        
+    }
+
+    .captain-img img {
+        max-width: 500px;
+    width: 80% ;
+    height: auto;
+    position: absolute;
+    top: -700px;
+    left: -5vw;
+    z-index: 1;
+      
+    }
+
+}
+
+/* --------------------------- Tablet ---------------------------- */
+
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+
+    .hulk-background{
+        width: 100vw;
+        height: auto;
+        
+        background-color: white;
+        background-image: -webkit-linear-gradient(-60deg, rgb(17, 138, 17) 50%,white 50%);
+        min-height: 850px;
+        
+        
+    }
+    
+    .captain-img img {
+        max-width: 600px;
+        width: 60% ;
+        top: -700px;
+        left: -2%;
+        
+        
+  
+      }
+}
+
+/* --------------------------- PC ---------------------------- */
+
+
+/* --------------------- Large PC ---------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+    .captain-img img {
+        max-width: 650px;
+        width: 70% ;
+        top: -700px;
+        left: 4%;
+        
+        
+  
+      }
+
+      .captain-background{
+        width: 100vw;
+        height: auto;
+        
+        background-color: white;
+        background-image: -webkit-linear-gradient(-70deg, rgb(17, 138, 17) 50%,white 50%);
+        min-height: 850px;
+        
+        
+    }
+
+}
+
+/* --------------------- Large PC ---------------------------*/
+

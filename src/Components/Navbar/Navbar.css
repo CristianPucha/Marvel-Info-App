@@ -42,7 +42,7 @@ header{
 }
 
 .show{
-    top: 50px !important;
+    top: 60px !important;
     transition: all 0.1s;
     
 }
@@ -64,15 +64,15 @@ ul {
     
 }
 
-
+/*--------------------- Tablet --------------------*/
 
 @media screen and (min-width: 650px) {
-   body{
-       background-color: red;
-   }
+   
 
   }
+/*--------------------- Tablet --------------------*/
 
+/*--------------------- PC --------------------*/
   
 
   @media screen and (min-width: 950px) {
@@ -123,6 +123,12 @@ ul {
         padding-left: 20px;
     }
 
+    .hamb ul li img:hover {
+   
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
     .arrowsleft{
         position: absolute;
         left: 5px;
@@ -131,3 +137,5 @@ ul {
 
 
   }
+
+  /*--------------------- PC --------------------*/
