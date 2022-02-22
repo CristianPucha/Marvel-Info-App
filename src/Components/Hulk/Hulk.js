@@ -41,27 +41,27 @@ function Hulk (){
 
     return(
         <>
-        <div className='spiderman-div'>
+        <div className='general-div'>
             <div className='spiderman-img-mobile hulk-img hulk-background'>
                 <motion.h1 
                 initial={{ y: -330 }}  animate={{ y: 0  }} transition={{ type: "spring", delay: 0.5 }}> {datos.name} </motion.h1>
                 
                 
-                    <motion.img src={hulk} alt="Spider-Man"  animate={{ y: 800 }} transition={{ type: "spring", stiffness: 100 }}  />
+                    <motion.img src={hulk} alt="Hulk"  animate={{ y: 800 }} transition={{ type: "spring", stiffness: 100 }}  />
                     
-                <div className='spider-info-div hulk-info-div'>
+                <div className='general-info-div hulk-info-div'>
                         <motion.h2 initial={{ x: 1000 }}  animate={{ x: 0  }} transition={{ type: "spring", delay: 0.3 }}  >Story</motion.h2>
                             <motion.p initial={{ opacity: 0 }}  animate={{ opacity: 1  }} transition={{ type: "spring", duration:2 }}>{datos.description}</motion.p>
                 </div>
 
             </div> 
         </div>
-        <div className='spiderman-comics hulk-comics'>
+        <div className='general-comics hulk-comics'>
             <h2 >Comics</h2>
 
             <div>
                 
-                <ul className='spider-comics-list'>
+                <ul className='general-comics-list'>
                 
                     {
                     comics.map((comic , i)=>{

@@ -1,35 +1,32 @@
-.hulk-img img {
+.iron-img img {
     max-width: 80%;
   
   top: -700px;
   left:-10%;
-  
+  z-index: 1;
   
 }
 
-.hulk-img h1 {
+.iron-img h1 {
   left: 70%;
-  width: auto;
 }
 
-.hulk-background{
-    
-    
-    
-    background-image: -webkit-linear-gradient(-44deg, rgb(17, 138, 17) 50%,white 50%);
-    
+.iron-background{
+   
+    background-image: -webkit-linear-gradient(-44deg, rgb(209, 154, 34) 50%,white 50%);
+    min-height: 700px;
     
     
 }
 
-.hulk-info-div h2{
-    
-    border-bottom: 2px solid rgb(17, 138, 17);
+.iron-info-div h2{
+    font-family: 'Bangers', cursive;
+    border-bottom: 2px solid rgb(209, 154, 34);
   }
 
-  .hulk-comics h2 {
+  .iron-comics h2 {
     
-    border-bottom: 2px solid rgb(17, 138, 17);
+    border-bottom: 2px solid rgb(209, 154, 34);
     
   }
 
@@ -38,12 +35,9 @@
 
 @media screen and (min-width: 650px) {
 
-    .hulk-background{
-        width: 100vw;
-        height: auto;
+    .iron-background{
         
-        background-color: white;
-        background-image: -webkit-linear-gradient(-55deg, rgb(17, 138, 17) 50%,white 50%);
+        background-image: -webkit-linear-gradient(-55deg, rgb(209, 154, 34) 50%,white 50%);
         min-height: 700px;
         
         
@@ -68,11 +62,9 @@
 
 @media screen and (min-width: 950px) {
 
-    .hulk-background{
-      
+    .iron-background{
         
-      
-        background-image: -webkit-linear-gradient(-60deg, rgb(17, 138, 17) 50%,white 50%);
+        background-image: -webkit-linear-gradient(-60deg, rgb(209, 154, 34) 50%,white 50%);
         min-height: 850px;
         
         
@@ -120,11 +112,9 @@
   
       }
 
-      .hulk-background{
+      .iron-background{
         
-        
-       
-        background-image: -webkit-linear-gradient(-70deg, rgb(17, 138, 17) 50%,white 50%);
+        background-image: -webkit-linear-gradient(-70deg, rgb(209, 154, 34) 50%,white 50%);
         min-height: 850px;
         
         

@@ -1,16 +1,17 @@
+import './IronMan.css'
 import '../../generalCSS.css'
-import Spidermanhang from '../../Assets/spidermanmobile.png'
+import iron from '../../Assets/iron.png'
 import { motion } from 'framer-motion';
 import { useEffect , useState} from 'react'
 
 
-const HeroId = '1009610'
+const HeroId = '1009368'
 const APIdata = "https://gateway.marvel.com:443/v1/public/characters?id="+ HeroId +"&ts=1&apikey=ee1f0ed925539c3a4d4ce7064b25523f&hash=8680bd6cec5e509e26c875432b373f0b"
 const APIcomics = "https://gateway.marvel.com:443/v1/public/characters/"+ HeroId +"/comics?ts=1&apikey=ee1f0ed925539c3a4d4ce7064b25523f&hash=8680bd6cec5e509e26c875432b373f0b"
 
 
 
-function Spiderman (){
+function IronMan (){
 
     const [datos , setDatos] = useState ([]); 
     const [comics , setComics] = useState ([]); 
@@ -41,22 +42,21 @@ function Spiderman (){
     return(
         <>
         <div className='general-div'>
-            <div className='spiderman-img-mobile'>
+            <div className='spiderman-img-mobile hulk-img iron-background'>
                 <motion.h1 
                 initial={{ y: -330 }}  animate={{ y: 0  }} transition={{ type: "spring", delay: 0.5 }}> {datos.name} </motion.h1>
                 
                 
-                    <motion.img src={Spidermanhang} alt="Spider-Man" 
-                    animate={{ y: 800 }} 
-                    transition={{ type: "spring", stiffness: 100 }}  />
-                <div className='general-info-div'>
+                    <motion.img src={iron} alt="Iron-Man"  animate={{ y: 800 }} transition={{ type: "spring", stiffness: 100 }}  />
+                    
+                <div className='general-info-div iron-info-div'>
                         <motion.h2 initial={{ x: 1000 }}  animate={{ x: 0  }} transition={{ type: "spring", delay: 0.3 }}  >Story</motion.h2>
                             <motion.p initial={{ opacity: 0 }}  animate={{ opacity: 1  }} transition={{ type: "spring", duration:2 }}>{datos.description}</motion.p>
                 </div>
 
             </div> 
         </div>
-        <div className='general-comics'>
+        <div className='general-comics iron-comics'>
             <h2 >Comics</h2>
 
             <div>
@@ -93,4 +93,4 @@ function Spiderman (){
     )
 }
 
-export default Spiderman
+export default IronMan

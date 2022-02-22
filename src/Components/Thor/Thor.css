@@ -1,0 +1,88 @@
+
+
+.thor-background{
+    
+    
+    
+    background-image: -webkit-linear-gradient(-44deg, rgba(33, 191, 202, 0.541) 50%,white 50%);
+    
+    
+    
+}
+
+.thor-info-div h2{
+    
+    border-bottom: 2px solid rgba(33, 191, 202, 0.541);
+  }
+
+  .thor-comics h2 {
+    
+    border-bottom: 2px solid rgba(33, 191, 202, 0.541);
+    
+  }
+
+
+/* --------------------------- Tablet ---------------------------- */
+
+@media screen and (min-width: 650px) {
+
+    .thor-background{
+        
+        background-image: -webkit-linear-gradient(-55deg, rgba(33, 191, 202, 0.541) 50%,white 50%);
+        
+        
+        
+    }
+
+}
+
+/* --------------------------- Tablet ---------------------------- */
+
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+
+    .thor-background{
+      
+        
+      
+        background-image: -webkit-linear-gradient(-60deg, rgba(33, 191, 202, 0.541) 50%,white 50%);
+        min-height: 850px;
+        
+        
+    }
+    
+    
+}
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+ 
+  
+
+}
+
+
+
+/* --------------------- Large PC ---------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+    
+
+      .thor-background{
+        
+        
+       
+        background-image: -webkit-linear-gradient(-70deg, rgba(33, 191, 202, 0.541) 50%,white 50%);
+        
+        
+        
+    }
+
+}
+
+/* --------------------- Large PC ---------------------------*/
+

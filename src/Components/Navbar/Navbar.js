@@ -2,8 +2,11 @@ import logo from '../../Assets/logo.png'
 import menu from '../../Assets/menu-icon.png'
 import spidermanjpg from '../../Assets/spiderman.png'
 import capitanamerica from '../../Assets/capitanamerica.png'
-import deadpool from '../../Assets/deadpool.png'
+import ironman from '../../Assets/ironman.png'
 import hulk from '../../Assets/hulk.png'
+import thor from '../../Assets/thor.png'
+import strange from '../../Assets/strange.png'
+import blackpanther from '../../Assets/blackpanther.png'
 
 import arrows from '../../Assets/arrows.png'
 import './Navbar.css'
@@ -51,6 +54,18 @@ function Navbar () {
                        
                         <li><a href="hulk">
                             <img src={hulk} alt="" /></a>
+                        </li>
+                        <li><a href="iron-man">
+                            <img src={ironman} alt="" /></a>
+                        </li>
+                        <li><a href="thor">
+                            <img src={thor} alt="" /></a>
+                        </li>
+                        <li><a href="doctor-strange">
+                            <img src={strange} alt="" /></a>
+                        </li>
+                        <li><a href="black-panther">
+                            <img src={blackpanther} alt="" /></a>
                         </li>
                         
                         

@@ -2,7 +2,7 @@
     max-width: 80%;
   height: auto;
   position: absolute;
-  top: -700px;
+  top: -700px !important;
   left:-10%;
   z-index: 1;
   

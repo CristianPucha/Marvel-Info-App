@@ -41,7 +41,7 @@ function CaptainAmerica (){
 
     return(
         <>
-        <div className='spiderman-div'>
+        <div className='general-div'>
             <div className='spiderman-img-mobile captain-img captain-background'>
                 <motion.h1 
                 initial={{ y: -330 }}  animate={{ y: 0  }} transition={{ type: "spring", delay: 0.5 }}> {datos.name} </motion.h1>
@@ -49,19 +49,19 @@ function CaptainAmerica (){
                 
                     <motion.img src={captainAmerica} alt="Spider-Man"  animate={{ y: 800 }} transition={{ type: "spring", stiffness: 100 }}  />
                     
-                <div className='spider-info-div captain-info-div'>
+                <div className='general-info-div captain-info-div'>
                         <motion.h2 initial={{ x: 1000 }}  animate={{ x: 0  }} transition={{ type: "spring", delay: 0.3 }}  >Story</motion.h2>
                             <motion.p initial={{ opacity: 0 }}  animate={{ opacity: 1  }} transition={{ type: "spring", duration:2 }}>{datos.description}</motion.p>
                 </div>
 
             </div> 
         </div>
-        <div className='spiderman-comics captain-comics'>
+        <div className='general-comics captain-comics'>
             <h2 >Comics</h2>
 
             <div>
                 
-                <ul className='spider-comics-list'>
+                <ul className='general-comics-list'>
                 
                     {
                     comics.map((comic , i)=>{
