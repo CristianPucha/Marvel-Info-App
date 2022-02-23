@@ -49,9 +49,10 @@ header{
 }
 
 .hamb ul li {
-    padding-top: 7px;
+    padding-top: 0px;
+    margin: -2px;
     text-align: center;
-    
+    transform: scale(0.9);
 }
 
 .logo{
@@ -122,6 +123,10 @@ ul {
 
     .hamb ul li {
         padding-left: 20px;
+        padding-top: 11px;
+    
+            transform: scale(1);
+        
     }
 
     .hamb ul li img:hover {
@@ -133,7 +138,7 @@ ul {
     .arrowsleft{
         position: absolute;
         left: 5px;
-        top: 45%;
+        top: 26vh;
     }
 
 
