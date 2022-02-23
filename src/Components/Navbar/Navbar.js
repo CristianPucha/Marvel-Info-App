@@ -7,6 +7,8 @@ import hulk from '../../Assets/hulk.png'
 import thor from '../../Assets/thor.png'
 import strange from '../../Assets/strange.png'
 import blackpanther from '../../Assets/blackpanther.png'
+import widow from '../../Assets/widow.png'
+import hawkeye from '../../Assets/hawkeye.png'
 
 import arrows from '../../Assets/arrows.png'
 import './Navbar.css'
@@ -66,6 +68,12 @@ function Navbar () {
                         </li>
                         <li><a href="black-panther">
                             <img src={blackpanther} alt="" /></a>
+                        </li>
+                        <li><a href="black-widow">
+                            <img src={widow} alt="" /></a>
+                        </li>
+                        <li><a href="hawk-eye">
+                            <img src={hawkeye} alt="" /></a>
                         </li>
                         
                         

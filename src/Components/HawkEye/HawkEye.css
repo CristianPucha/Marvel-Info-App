@@ -1,0 +1,88 @@
+
+
+.hawk-background{
+    
+    
+    
+    background-image: -webkit-linear-gradient(-44deg, rgb(148, 13, 182) 50%,white 50%);
+    
+    
+    
+}
+
+.hawk-info-div h2{
+    
+    border-bottom: 2px solid rgb(148, 13, 182);
+  }
+
+  .hawk-comics h2 {
+    
+    border-bottom: 2px solid rgb(148, 13, 182);
+    
+  }
+
+
+/* --------------------------- Tablet ---------------------------- */
+
+@media screen and (min-width: 650px) {
+
+    .hawk-background{
+        
+        background-image: -webkit-linear-gradient(-55deg, rgb(148, 13, 182) 50%,white 50%);
+        
+        
+        
+    }
+
+}
+
+/* --------------------------- Tablet ---------------------------- */
+
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+
+    .hawk-background{
+      
+        
+      
+        background-image: -webkit-linear-gradient(-60deg, rgb(148, 13, 182) 50%,white 50%);
+        min-height: 850px;
+        
+        
+    }
+    
+    
+}
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+ 
+  
+
+}
+
+
+
+/* --------------------- Large PC ---------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+    
+
+      .hawk-background{
+        
+        
+       
+        background-image: -webkit-linear-gradient(-70deg, rgb(148, 13, 182) 50%,white 50%);
+        
+        
+        
+    }
+
+}
+
+/* --------------------- Large PC ---------------------------*/
+

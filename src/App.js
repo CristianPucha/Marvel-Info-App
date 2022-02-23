@@ -7,6 +7,9 @@ import Hulk from './Components/Hulk/Hulk'
 import IronMan from './Components/IronMan/IronMan'
 import Thor from './Components/Thor/Thor'
 import DoctorStrange from './Components/DoctorStrange/DoctorStrange'
+import BlackPanther from './Components/BlackPanther/BlackPanther'
+import BlackWidow from './Components/BlackWidow/BlackWidow'
+import HawkEye from './Components/HawkEye/HawkEye'
 import { Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
         <Route path='iron-man' element={<IronMan />} />
         <Route path='thor' element={<Thor />} />
         <Route path='doctor-strange' element={<DoctorStrange />} />
+        <Route path='black-panther' element={<BlackPanther />} />
+        <Route path='black-widow' element={<BlackWidow />} />
+        <Route path='hawk-eye' element={<HawkEye />} />
     
    
     </Routes>

@@ -1,0 +1,88 @@
+
+
+.widow-background{
+    
+    
+    
+    background-image: -webkit-linear-gradient(-44deg, rgb(22, 19, 63) 50%,white 50%);
+    
+    
+    
+}
+
+.widow-info-div h2{
+    
+    border-bottom: 2px solid rgb(22, 19, 63);
+  }
+
+  .widow-comics h2 {
+    
+    border-bottom: 2px solid rgb(22, 19, 63);
+    
+  }
+
+
+/* --------------------------- Tablet ---------------------------- */
+
+@media screen and (min-width: 650px) {
+
+    .widow-background{
+        
+        background-image: -webkit-linear-gradient(-55deg, rgb(22, 19, 63) 50%,white 50%);
+        
+        
+        
+    }
+
+}
+
+/* --------------------------- Tablet ---------------------------- */
+
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+
+    .widow-background{
+      
+        
+      
+        background-image: -webkit-linear-gradient(-60deg, rgb(22, 19, 63) 50%,white 50%);
+        min-height: 850px;
+        
+        
+    }
+    
+    
+}
+
+/* --------------------------- PC ---------------------------- */
+
+@media screen and (min-width: 950px) {
+ 
+  
+
+}
+
+
+
+/* --------------------- Large PC ---------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+    
+
+      .widow-background{
+        
+        
+       
+        background-image: -webkit-linear-gradient(-70deg, rgb(22, 19, 63) 50%,white 50%);
+        
+        
+        
+    }
+
+}
+
+/* --------------------- Large PC ---------------------------*/
+
